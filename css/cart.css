@@ -1,0 +1,74 @@
+.cart-background {
+  background-color: #c2d3de;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.w-100 {
+  width: 100%;
+  display: flex;
+}
+.w-50 {
+  margin-top: 20px;
+  width: 50%;
+  display: flex;
+}
+.cart-table {
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 5px;
+}
+.tb-contents {
+  display: flex;
+  justify-content: center;
+}
+td,
+th {
+  border-bottom: 1px solid #c2d3de;
+  padding: 10px 15px;
+  vertical-align: middle;
+  font-weight: 500;
+}
+.tb-contents img {
+  width: 100px;
+}
+.cart-table tr:nth-child(3) td {
+  border-bottom: none;
+  height: 50px;
+  font-size: 18px;
+}
+.cart-table td:nth-child(3),
+.cart-table td:nth-child(4),
+.cart-table td:nth-child(5) {
+  text-align: end;
+}
+.cart-table tr:nth-child(3) td {
+  text-align: right;
+}
+
+.payBtn {
+  justify-content: flex-end;
+}
+.payBtn input {
+  height: 50px;
+  width: 70%;
+  color: white;
+  background-color: darkslateblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.payBtn input:hover {
+  background-color: white;
+  color: darkslateblue;
+}
+.payBtn input:focus {
+}
+.payBtn input:active {
+  background-color: darkgrey;
+  color: white;
+}

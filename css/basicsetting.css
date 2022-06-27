@@ -349,3 +349,13 @@ template {
 [hidden] {
   display: none;
 }
+
+div,
+input,
+textarea,
+table,
+tr,
+th,
+td {
+  box-sizing: border-box;
+}

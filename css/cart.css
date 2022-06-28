@@ -32,7 +32,7 @@ th {
   vertical-align: middle;
   font-weight: 500;
 }
-.tb-contents img {
+table img {
   width: 100px;
 }
 .cart-table tr:nth-child(3) td {
@@ -66,8 +66,7 @@ th {
   background-color: white;
   color: darkslateblue;
 }
-.payBtn input:focus {
-}
+
 .payBtn input:active {
   background-color: darkgrey;
   color: white;

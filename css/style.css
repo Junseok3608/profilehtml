@@ -7,3 +7,23 @@
 
 /* css basic */
 @import '/css/basicsetting.css';
+
+/* font */
+@font-face {
+  font-family: '나눔스퀘어R';
+  src: url(../font/NanumSquareR.woff);
+}
+
+body {
+  font-family: '나눔스퀘어R';
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  transform: rotate(0.03deg);
+}

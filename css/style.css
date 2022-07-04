@@ -2,6 +2,7 @@
 @import '/css/index.css';
 @import '/css/layout.css';
 @import '/css/layout2.css';
+@import '/css/layout3.css';
 @import '/css/contact.css';
 @import '/css/cart.css';
 
@@ -26,4 +27,11 @@ h5,
 h6,
 span {
   transform: rotate(0.03deg);
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
 }

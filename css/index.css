@@ -1,0 +1,19 @@
+body {
+  background-color: #f7f9fc;
+}
+
+.profile-box {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fire-icon {
+  font-size: 40px;
+  color: #6fbaf8;
+}
+div {
+  box-sizing: border-box;
+}
